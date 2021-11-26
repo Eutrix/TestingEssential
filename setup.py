@@ -2,11 +2,11 @@
 # DONE README.md
 # DONE build.gradle archivesBaseName
 # DONE /src/main/resources/mcmod.info
-# DONE /src/main/kotlin/dev/eutrix/EssentialTemplate/
-# DONE .../EssentialTemplate/EssentialTemplate.kt
+# DONE /src/main/kotlin/dev/eutrix/BadForgeTemplate/
+# DONE .../BadForgeTemplate/BadForgeTemplate.kt
 # ..... package
 # ..... @Mod()
-# ..... object EssentialTemplate()
+# ..... object BadForgeTemplate()
 
 # Change this to True if you want to change the name 'eutrix' in the project to your own name
 changeAuthor = False
