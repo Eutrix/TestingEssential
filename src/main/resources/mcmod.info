@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "badforgemodid",
+    "name": "BadForgeTemplate",
+    "description": "BadDescription",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      ""
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
