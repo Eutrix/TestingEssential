@@ -1,8 +1,8 @@
 [
   {
-    "modid": "badforgemodid",
-    "name": "BadForgeTemplate",
-    "description": "BadDescription",
+    "modid": "essentialtest",
+    "name": "TestingEssential",
+    "description": "Doing things.",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "",
