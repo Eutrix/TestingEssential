@@ -1,5 +1,5 @@
  
-package dev.eutrix.essentialtemplate.adapter
+package dev.eutrix.testingessential.adapter
 
 import net.minecraftforge.fml.common.FMLModContainer
 import net.minecraftforge.fml.common.ILanguageAdapter

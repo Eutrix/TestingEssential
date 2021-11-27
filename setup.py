@@ -124,3 +124,16 @@ if baseFile.exists():
 		print(f'Finished writing {newName}.kt')
 else:
 	print(f"Couldn't rename {newName}.kt because it doesn't exist")
+
+ktAdapter = otherFolder / 'adapter/KotlinLanguageAdapter.kt'
+if ktAdapter.exists():
+	with ktAdapter.open(mode = 'r+', encoding = 'UTF-8') as f:
+		newText = f.read().replace('badforgetemplate', newName.lower())
+		if changeAuthor:
+			newText = newText.replace('eutrix', newAuthor.lower())
+		f.seek(0)
+		f.write(newText)
+		f.truncate()
+		print(f'Finished writing KotlinLanguageAdapter.kt')
+else:
+	print(f"Couldn't rename KotlinLanguageAdapter.kt because it doesn't exist")
